@@ -16,15 +16,21 @@ NameGenerator::NameGenerator()
 
     srand(time(NULL));
 
-    syllables = {"ch","psi","sh","th","um","mu","oz","zo","ri","ot","to","ro","ri","ex","ax","ix","xi", "ea","ae","al", "ar", "en", "dor", "mir", "thal", "wyn", "eth", "ion", "ael", "ka", "rin",
+    syllables = 
+    {
+        "ch","psi","sh","th","um","mu","oz","zo","ri","ot","to","ro","ri","ex","ax","al", "ar", "en",
+        "om","mo","em","ori","czi","ist","ayx","aza","aso","tza","onn","dar","eff","axl","xy","ly","ae","itz",
+        "ara","ix","xi","goy","al", "ar", "en", "dor","mir", "thal", "wyn", "eth", "ion", "ael", "ka", "rin",
         "tor", "el", "fen", "gal", "nor", "sil", "val", "zor", "bra", "sha", "dra", "lor", "mal", "nel", "oth", "pyr",
         "qua", "ryn", "sel", "tan", "uth", "vor", "xel", "yra", "zyn", "bel", "cal", "den", "eri", "fyn", "gor", "hal",
         "iri", "jal", "kel", "len", "mor", "ner", "ol", "pal", "quin", "rel", "sar", "tal", "ul", "ven", "wyr", "xen",
         "yel", "zar", "bal", "cer", "del", "er", "fal", "gel", "har", "il", "jar", "kor", "lan", "mel", "nel", "or",
         "par", "quor", "ras", "sel", "tar", "ur", "vel", "wal", "xor", "yal", "zor", "bran", "char", "dren", "lir",
-        "mar", "ner", "oryn", "tro", "quin", "ral", "syth", "thar", "vyn"};
+        "q'","bla","oo","ob","omn","tyr","mar", "ner", "oryn", "pyr", "quin", "ral", "syth", "thar", "vyn"
+    };
 
-        firstWord = {
+        firstWord = 
+        {
             "ever","chill","night","dark","deep",
             "front","grime","dirt","hallow","ember",
             "never","under","gloom","mist","shadow",
@@ -46,7 +52,8 @@ NameGenerator::NameGenerator()
             "cron","bosh","agd","here","luds"
         };
         
-        secondWord = {
+        secondWord = 
+        {
             "glade","wood","dale","shade","hall",
             "moor","rend","mire","shire","crest",
             "vale","stead","wich","more","thton",
